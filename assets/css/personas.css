@@ -1,0 +1,10 @@
+.personas{
+    display: flex;
+    padding-top: 3rem;
+    justify-content: space-around;
+}
+@media screen and (max-width: 767px) {
+    .personas{
+        flex-direction: column;
+    }
+}
